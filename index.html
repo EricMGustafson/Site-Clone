@@ -18,7 +18,7 @@
         <div class="container mb-5">
           <div class="row">
             <div class="col">
-              <nav class="navbar fixed-top navbar-light bg-light">
+              <nav class="navbar fixed-top bg-tert">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
                     <i class="fa-duotone fa-burrito"></i>"></i>
@@ -32,47 +32,67 @@
       </header>
       <main>
         <!-- input form and blurb -->
-        <div class="container-fluid pt-5">
-          <div class="row">
-            <div class="col-6">
-              <h4>Burrito Breakfast</h4> 
-              <div class="form d-flex flex-column">
+        <div class="container-fluid pt-5 vh-100 main-pic">
+          <div class="row h-100">
+            <div class="col-4">
+              <h4 class="m-0 p-0">Burrito Breakfast</h4> 
+              <div class="form-card d-flex justify-content-center">
+                <div class="form flex-column  w-75 h-75">
                 <h6>Burrito Breakfast but smaller</h6>
-                <input type="name" name="name" id="name" placeholder="Name">
-                <input type="email" name="email" id="email" placeholder="E-Mail">
-                <div>
-                  <input type="phone" name="phone" id="phone" placeholder="Phone">
-                  <input type="ext" name="ext" id="ext" placeholder="Ext.">
+                <div class="p-2 m-0">
+                  <input class="w-100" type="name" name="name" id="name" placeholder="Name">
                 </div>
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                <div>
-                  <input type="checkbox" name="checkbox" id="checkbox" placeholder="Testy test">
-                  <p>Breakfast Burrito</p>
+                <div class="p-2">
+                  <input class="w-100" type="email" name="email" id="email" placeholder="E-Mail">
                 </div>
-                <div>
-                  <button>Burrito Me!</button>
+                <div class="d-flex p-1 ">
+                  <div class="m-1 w-60">
+                    <input class="w-100" type="phone" name="phone" id="phone" placeholder="Phone">
+                  </div>
+                  <div class="m-1 w-40">
+                    <input class="w-100" type="ext" name="ext" id="ext" placeholder="Ext.">
+                  </div>
                 </div>
+                <div class="p-2">
+                  <textarea class="w-100 pb-0 mb-0"name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
+                </div>
+                <div class="row p-2 d-flex align-content-centerpt-0">
+                  <div class="col-1">
+                    <input class="p-2" type="checkbox" name="checkbox" id="checkbox" placeholder="Testy test">
+                  </div>
+                  <div class="col">
+                    <p class="">Breakfast Burrito</p>
+                  </div>
+                </div>
+                <div class="">
+                  <button type="button" class="btn">Submit</button>
+                </div>
+              </div>
+              </div>
             </div>
-          </div>
-            <div class="col-6">
-            <div>
-              <h2>BREAKFAST BURRITO!</h2>
-              <p>Blurb about Breakfast Burrito</p>
+            <div class="col-8">
+              <div class="row m-5 h-100">
+                  <div class="col-8">
+                    <div class="d-flex+">
+                      <h2>BREAKFAST BURRITO!</h2>
+                      <p>Blurb about Breakfast Burrito</p>
+                    </div>
+                  </div>
+              </div>
             </div>
           </div>
         </div>
         <!-- blurb and floating card -->
-        <div class="container">
-          <div class="row">
+        <div class="container-fluid vh-40 bg-pri text-light">
+          <div class="row position-relative">
             <div class="col-6">
               <div>
                 <h2>Breakfast Burrito!!</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, officia at? Fugit molestiae quia tempora distinctio perspiciatis sint praesentium architecto ducimus nisi! Nobis atque porro repellat beatae adipisci! Neque, pariatur.
-                Praesentium ab sequi in ipsam autem exercitationem earum corporis assumenda velit, accusamus, eaque molestiae vitae nihil saepe dolores! Nostrum dignissimos eos voluptate quisquam animi modi illum. Quas, expedita? Voluptas, eveniet!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, officia at? Fugit molestiae quia tempora distinctio perspiciatis sint praesentium architecto ducimus nisi! Nobis atque porro repellat beatae adipisci! Neque, pariatur.</p>
               </div>
             </div>
-            <div class="col-6">
-              <ol>
+            <div class="col-6 bg-sec position-absolute float-card">
+              <ol class="bg-sec">
                 <li>b</li>
                 <li>u</li>
                 <li>rr</li>
@@ -84,41 +104,35 @@
           </div>
         </div>
         <!-- picture and blurb -->
-        <div class="container">
+        <div class="container-fluid vh-60 bg-tert">
           <div class="row">
             <div class="col-6">
-              <div>
-                <img class="img-flash" src="https://iwashyoudry.com/wp-content/uploads/2021/04/Bacon-Breakfast-Burritos-6.jpg" alt="Burrito! Stack">
+              <div class="img-card ">
+                <img class="img-fluid" src="https://iwashyoudry.com/wp-content/uploads/2021/04/Bacon-Breakfast-Burritos-6.jpg" alt="Burrito! Stack">
               </div>
             </div>
             <div class="col-6">another breakfast burrito blurb</div>
           </div>
         </div>
         <!-- 3 cards, middle is larger -->
-        <div class="container">
-          <div class="row">
-            <div class="col-4 card">
-              <div>
+        <div class="container-fluid vh-60 d-flex bg-pri">
+          <div class="row d-flex justify-content-center">
+            <div class="col-4 card bg-sec m-5">
                 <h4>Burrito Headline</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis fugit omnis, iusto dolorum non placeat molestias corrupti excepturi voluptate iste incidunt quaerat eum veniam ipsa eligendi dolor ipsum facere facilis.</p>
-              </div>
             </div>
-            <div class="col-4 big-card">             
-              <div>
+            <div class="col-4 big-card bg-sec">             
                 <h4>Burrito Headline</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis fugit omnis, iusto dolorum non placeat molestias corrupti excepturi voluptate iste incidunt quaerat eum veniam ipsa eligendi dolor ipsum facere facilis.</p>
-              </div>
             </div>
-            <div class="col-4 card">
-              <div>
+            <div class="col-4 card bg-sec m-5">
                 <h4>Burrito Headline</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis fugit omnis, iusto dolorum non placeat molestias corrupti excepturi voluptate iste incidunt quaerat eum veniam ipsa eligendi dolor ipsum facere facilis.</p>
-              </div>
             </div>
           </div>
         </div>
         <!-- blurb -->
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col">
               <div>
@@ -130,9 +144,9 @@
         </div>
       </main>
       <footer>
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col">
+            <div class="col bg-tert">
               <div>
                 <p>All burritos pictured here may be eaten without harming burrito farms.</p>
               </div>

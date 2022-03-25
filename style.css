@@ -1,4 +1,69 @@
-.intro {
-  height: vh80;
-  background-color: skyblue;
+:root {
+  --secondary: #f4ca21;
+  --primary: #3b0d0d;
+  --tertiary: #fbf0e5;
+}
+
+.main-pic{
+  background-image: url(https://th.bing.com/th/id/OIP.QIwy8kvDsVZ564IW12DldgHaE8?pid=ImgDet&rs=1);
+  background-size: cover;
+}
+
+.form-card {
+  background-color: var(--secondary);
+  padding: 0px;
+  border-radius: 25px;
+}
+
+.float-card{
+  top: 150px;
+  left: 600px;
+}
+
+.img-card{
+  width: 50%
+}
+
+.card {
+  height: 250px;
+  width: 250px;
+}
+
+.big-card{
+  height: 350px;
+  width: 350px;
+}
+
+.bg-pri{
+  background-color: var(--primary);
+}
+
+.bg-sec {
+  background-color: var(--secondary);
+}
+
+.bg-tert {
+  background-color: var(--tertiary)
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.vh-40 {
+  height: 40vh;
+}
+
+.vh-60{
+  height: 60vh;
+}
+
+.d-flex+{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
 }
