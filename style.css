@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
 :root {
   --primary: #A5633C;
   --secondary: #f7f95e;
   --tertiary: #fbf0e5;
+}
+
+body{
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 .main-pic{
@@ -9,41 +15,69 @@
   background-size: cover;
 }
 
+.bur-paint {
+  height: 70px;
+  width: 70px;
+}
+
 .form-card {
   background-color: var(--secondary);
   padding: 0px;
-  border-radius: 25px;
 }
 
 .float-card{
-  top: 100px;
-  left: 800px;
+  top: 75px;
+  right: 75px;
 }
 
+.nav-font{
+  font-size: 44px;
+  vertical-align: bottom;
+}
+
+.icon-font {
+  vertical-align: bottom;
+}
+
+.test {
+  width: max-content;
+  height: 40em;
+}
 .img-card{
   display: block;
 }
 
 .card {
-  height: 250px;
-  width: 250px;
+  height: 25em;
+  width: 30em;
 }
 
 .big-card{
-  height: 300px;
-  width: 300px;
+  height: 30em;
+  width: 30em;
 }
 
 .bg-pri{
   background-color: var(--primary);
+  color: var(--tertiary);
 }
 
 .bg-sec {
   background-color: var(--secondary);
+  color: var(--primary);
 }
 
 .bg-tert {
-  background-color: var(--tertiary)
+  background-color: var(--tertiary);
+  color: var(--primary);
+}
+
+.text-subtle{
+  color:rgb(165, 99, 60, .5);
+}
+
+.pt-13 {
+  padding-top: 130px;
 }
 
 .w-60 {
@@ -62,8 +96,27 @@
   height: 60vh;
 }
 
-.d-flex+{
-  display:flex;
-  justify-content: center;
-  flex-direction: column;
+.vh-80 {
+  height: 80vh;
 }
+
+@media only screen and (max-width: 992px ) {
+  .card {
+    order: 2;
+  }
+  .big-card{
+    order: 1;
+  }
+
+  /* .float-card {
+    order: 1;
+  } */
+
+}
+
+/* @media only screen and (min-width: 992px) {
+
+  .pos-stat {
+    position: relative;
+  }
+} */
