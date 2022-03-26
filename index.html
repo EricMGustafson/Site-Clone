@@ -14,30 +14,24 @@
   </head>
   <body>
       <header>
-        <div class="container mb-5">
-          <div class="row">
-            <div class="col">
-              <nav class="navbar fixed-top bg-tert">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
-                    <i class="fa-duotone fa-burrito"></i>"></i>
-                    Breakfast Burrito
-                  </a>
-                </div>
-              </nav>
+        <div class="container-fluid bg-tert position-fixed">
+          <nav class="row navbar navbar-light">
+            <div class="px-5">
+              <img class="bur-paint" src="burrito.jpg" alt="">
+              <a class="navbar-brand nav-font fw-bold" href="#video">Breakfast Burrito</a>
             </div>
-          </div>
+          </nav>
         </div>
       </header>
       <main>
         <!-- input form and blurb -->
-        <div class="container-fluid pt-5 vh-100 main-pic">
-          <div class="row h-100">
-            <div class="col-4">
-              <h4 class="m-0 p-0">Burrito Breakfast</h4> 
-              <div class="form-card d-flex justify-content-center">
+        <div class="container-fluid pt-13 vh-100 main-pic">
+          <div class="row">
+            <div class="col">
+              <h4 class="text-subtle">Burrito Breakfast</h4> 
+              <div class="form-card rounded d-flex justify-content-center">
                 <div class="form flex-column  w-75 h-75">
-                <h6>Burrito Breakfast but smaller</h6>
+                <h4 class="text-subtle mt-3 px-2">Burrito Breakfast but smaller</h6>
                 <div class="p-2 m-0">
                   <input class="w-100" type="name" name="name" id="name" placeholder="Name">
                 </div>
@@ -55,7 +49,7 @@
                 <div class="p-2">
                   <textarea class="w-100 pb-0 mb-0"name="message" id="message" cols="30" rows="5" placeholder="Message"></textarea>
                 </div>
-                <div class="row p-2 d-flex align-content-centerpt-0">
+                <div class="row p-2 d-flex align-content-center pt-0">
                   <div class="col-1">
                     <input class="p-2" type="checkbox" name="checkbox" id="checkbox" placeholder="Testy test">
                   </div>
@@ -64,15 +58,15 @@
                   </div>
                 </div>
                 <div class="">
-                  <button type="button" class="btn">Submit</button>
+                  <button type="button" class="btn pb-3 ">Submit</button>
                 </div>
               </div>
               </div>
             </div>
-            <div class="col-8">
+            <div class="col d-none d-md-block">
               <div class="row m-5 h-100">
                   <div class="col-8">
-                    <div class="d-flex+">
+                    <div class="">
                       <h2>BREAKFAST BURRITO!</h2>
                       <p>Blurb about Breakfast Burrito</p>
                     </div>
@@ -82,17 +76,18 @@
           </div>
         </div>
         <!-- blurb and floating card -->
-        <div class="container-fluid vh-40 bg-pri text-light">
-          <div class="row position-relative">
+        <div class="container-fluid bg-pri text-light">
+          <div class="row  d-flex justify-content-center">
             <div class="col-6">
               <div class="m-5">
                 <h2>Breakfast Burritos are delicious and nutricious</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, officia at? Fugit molestiae quia tempora distinctio perspiciatis sint praesentium architecto ducimus nisi! Nobis atque porro repellat beatae adipisci! Neque, pariatur.</p>
+                <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, officia at? Fugit molestiae quia tempora distinctio perspiciatis sint praesentium architecto ducimus nisi! Nobis atque porro repellat beatae adipisci! Neque, pariatur.</p>
               </div>
             </div>
-            <div class="col-4 bg-tert position-absolute float-card">
-              <div class="bg-tert p-0 text-dark">
-                <div class="d-flex">
+            <div class="col-6 bg-tert float-card">
+              <div class="position-fixed">
+                <div class="bg-tert p-0 text-dark">
+                  <div class="d-flex">
                   <i class="mdi mdi-egg-fried"></i>
                   <p>Burrito</p>
                 </div>
@@ -116,40 +111,54 @@
                   <i class="mdi mdi-chili-mild"></i>
                   <p>Burrito</p>
                 </div>
+              </div>
               </div>
           </div>
           </div>
         </div>
-        <!-- picture and blurb -->
-        <div class="container-fluid vh-60 bg-sec">
-          <div class="row">
-            <div class="col-6">
-              <div class="img-card">
-                <img class="img-fluid p-3" src="https://iwashyoudry.com/wp-content/uploads/2021/04/Bacon-Breakfast-Burritos-6.jpg" alt="Burrito! Stack">
+        <!-- picture(Stretch-video) and blurb -->
+        <div id="video" class="container-fluid vh-80 bg-sec">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-4 vh-80">
+              <div class="embed-responsive p-5 h-100">
+                <iframe class="w-100 h-100 embed-responsive-item" src="https://www.youtube.com/embed/prPjpwsGiws" allowfullscreen></iframe>
               </div>
             </div>
-            <div class="col-6">another breakfast burrito blurb</div>
+            <div class="col-8 vh-40 d-flex flex-column justify-content-center">
+              <div>
+                <h2 class="fs-1"><i class="mdi mdi-weather-sunny mdi-48px icon-font"></i>Break for breakfast with a delicious breakfast burrito!</h2>
+              </div>
+              <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptate voluptates ad tenetur deserunt dolor, ipsa recusandae excepturi iste accusantium ducimus, sunt nobis nesciunt perferendis repudiandae vel distinctio optio aperiam?</p>
+              </div>
+              <div class="row pt-4">
+                <div class="col-10"></div>              
+                <div class="col-2">
+                  <button class="btn bg-pri">button</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <!-- 3 cards, middle is larger -->
-        <div class="container-fluid vh-60 bg-pri">
+        <div class="container-fluid bg-pri">
           <div class="row d-flex justify-content-center align-items-center">
             <div class="col-4 card bg-tert m-5">
-                <h4>Burrito Headline</h4>
+                <h4>Burrito Bandit</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis fugit omnis, iusto dolorum non placeat molestias corrupti excepturi voluptate iste incidunt quaerat eum veniam ipsa eligendi dolor ipsum facere facilis.</p>
             </div>
             <div class="col-4 big-card bg-tert m-5">             
-                <h4>Burrito Headline</h4>
+                <h4>Burrito Brigan</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis fugit omnis, iusto dolorum non placeat molestias corrupti excepturi voluptate iste incidunt quaerat eum veniam ipsa eligendi dolor ipsum facere facilis.</p>
             </div>
             <div class="col-4 card bg-tert m-5">
-                <h4>Burrito Headline</h4>
+                <h4>Burrito Burgler</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis fugit omnis, iusto dolorum non placeat molestias corrupti excepturi voluptate iste incidunt quaerat eum veniam ipsa eligendi dolor ipsum facere facilis.</p>
             </div>
           </div>
         </div>
         <!-- blurb -->
-        <div class="container-fluid">
+        <div class="container-fluid bg-sec">
           <div class="row">
             <div class="col">
               <div>
@@ -164,7 +173,7 @@
       <footer>
         <div class="container-fluid">
           <div class="row">
-            <div class="col bg-tert">
+            <div class="col bg-tert text-center">
               <div>
                 <p>All burritos pictured here may be eaten without harming burrito farms.</p>
               </div>
