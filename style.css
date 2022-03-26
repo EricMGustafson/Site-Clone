@@ -1,6 +1,6 @@
 :root {
-  --secondary: #f4ca21;
-  --primary: #3b0d0d;
+  --primary: #A5633C;
+  --secondary: #f7f95e;
   --tertiary: #fbf0e5;
 }
 
@@ -16,12 +16,12 @@
 }
 
 .float-card{
-  top: 150px;
-  left: 600px;
+  top: 100px;
+  left: 800px;
 }
 
 .img-card{
-  width: 50%
+  display: block;
 }
 
 .card {
@@ -30,8 +30,8 @@
 }
 
 .big-card{
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
 }
 
 .bg-pri{
