@@ -27,8 +27,10 @@ body{
 }
 
 .float-card { 
-  top: 100px;
-  right: 100px;
+  width: 30em;
+  height: 30em;
+  left: -5em;
+  bottom: -15em;
 }
 
 .nav-font{
@@ -94,16 +96,13 @@ body{
   .big-card{
     order: 1;
   }
+  .float-card{
+      order: 1;
+      position: unset !important;
+   }
 
-  /* .float-card {
-    order: 1;
-  } */
-
-}
-
-/* @media only screen and (min-width: 992px) {
-
-  .pos-stat {
-    position: relative;
+  .blurb-card{
+      order: 2;
+      position: unset;
   }
-} */
+}
