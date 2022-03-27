@@ -45,7 +45,7 @@ body{
 
 .big-card{
   height: 20em;
-  width: 25em;
+  width: 24em;
   box-shadow: 5px, 5px, 5px, yellow;
 }
 
@@ -121,6 +121,7 @@ body{
       order: 1;
       position: unset !important;
       height: 100%;
+      background-color: var(--tertiary);
    }
 
   .blurb-card{
