@@ -10,9 +10,15 @@ body{
   font-family: 'Hind Siliguri', sans-serif;
 }
 
+.spacing {
+  height: 60px;
+  top: 0px;
+}
+
 .main-pic{
   background-image: url(https://th.bing.com/th/id/OIP.QIwy8kvDsVZ564IW12DldgHaE8?pid=ImgDet&rs=1);
   background-size: cover;
+  height: 100vh;
 }
 
 .bur-paint {
@@ -30,6 +36,7 @@ body{
   height: 75%;
   top: 8em;
   left: 5em;
+  box-shadow: 3px 3px 6px #FFFF89;
 }
 
 .nav-font{
@@ -40,13 +47,17 @@ body{
 .card {
   height: 15em;
   width: 20em;
-  box-shadow: 10px, 5px, 5px, yellow;
+  box-shadow: 3px 3px 6px #FFFF89;
 }
 
 .big-card{
   height: 20em;
-  width: 24em;
-  box-shadow: 5px, 5px, 5px, yellow;
+  width: 20em;
+  box-shadow: 3px 3px 6px #FFFF89;
+}
+
+.b-shadow{
+  box-shadow: 3px 3px 6px #FFFF89;
 }
 
 .bg-pri{
@@ -121,7 +132,6 @@ body{
       order: 1;
       position: unset !important;
       height: 100%;
-      background-color: var(--tertiary);
    }
 
   .blurb-card{
