@@ -13,6 +13,7 @@
 
   </head>
   <body>
+    <!-- Navbar (Stretch: link to page) -->
       <header>
         <div class="container-fluid bg-tert position-fixed">
           <nav class="row navbar navbar-light">
@@ -25,7 +26,7 @@
       </header>
       <main>
         <!-- input form and blurb -->
-        <div class="container-fluid pt-13 vh-100 main-pic">
+        <div class="container-fluid p-5 vh-100 main-pic">
           <div class="row">
             <div class="col">
               <h4 class="text-subtle">Burrito Breakfast</h4> 
@@ -63,7 +64,7 @@
               </div>
               </div>
             </div>
-            <div class="col d-none d-md-block">
+            <div class="col-8 d-none d-md-block">
               <div class="row m-5 h-100">
                   <div class="col-8">
                     <div class="">
@@ -77,39 +78,39 @@
         </div>
         <!-- blurb and floating card -->
         <div class="container-fluid bg-pri text-light">
-          <div class="row  d-flex justify-content-center">
+          <div class="row d-flex justify-content-center align-items-center">
             <div class="col-6">
               <div class="m-5">
                 <h2>Breakfast Burritos are delicious and nutricious</h2>
                 <p class="w-75">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, officia at? Fugit molestiae quia tempora distinctio perspiciatis sint praesentium architecto ducimus nisi! Nobis atque porro repellat beatae adipisci! Neque, pariatur.</p>
               </div>
             </div>
-            <div class="col-6 bg-tert float-card">
-              <div class="position-fixed">
+            <div class="col-5 position-relative bg-tert">
+              <div class="position-fixed float-card">
                 <div class="bg-tert p-0 text-dark">
                   <div class="d-flex">
                   <i class="mdi mdi-egg-fried"></i>
-                  <p>Burrito</p>
+                  <p>Burrito Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="d-flex">
                   <i class="mdi mdi-sausage"></i>
-                  <p>Burrito</p>
+                  <p>Burrito Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="d-flex">
                   <i class="mdi mdi-chili-mild"></i>
-                  <p>Burrito</p>
+                  <p>Burrito Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="d-flex">
                   <i class="mdi mdi-egg-fried"></i>
-                  <p>Burrito</p>
+                  <p>Burrito Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="d-flex">
                   <i class="mdi mdi-sausage"></i>
-                  <p>Burrito</p>
+                  <p>Burrito Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="d-flex">
                   <i class="mdi mdi-chili-mild"></i>
-                  <p>Burrito</p>
+                  <p>Burrito Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
               </div>
               </div>
@@ -118,13 +119,13 @@
         </div>
         <!-- picture(Stretch-video) and blurb -->
         <div id="video" class="container-fluid vh-80 bg-sec">
-          <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-4 vh-80">
+          <div class="row ">
+            <div class="col-5 vh-80">
               <div class="embed-responsive p-5 h-100">
                 <iframe class="w-100 h-100 embed-responsive-item" src="https://www.youtube.com/embed/prPjpwsGiws" allowfullscreen></iframe>
               </div>
             </div>
-            <div class="col-8 vh-40 d-flex flex-column justify-content-center">
+            <div class="col-7 my-5 d-flex flex-column justify-content-center align-content-center">
               <div>
                 <h2 class="fs-1"><i class="mdi mdi-weather-sunny mdi-48px icon-font"></i>Break for breakfast with a delicious breakfast burrito!</h2>
               </div>
@@ -143,17 +144,22 @@
         <!-- 3 cards, middle is larger -->
         <div class="container-fluid bg-pri">
           <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-4 card bg-tert m-5">
-                <h4>Burrito Bandit</h4>
+            <div class="col-4 card bg-tert m-5 d-flex flex-column justify-content-center align-items-center text-center">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis fugit omnis, iusto dolorum non placeat molestias corrupti excepturi voluptate iste incidunt quaerat eum veniam ipsa eligendi dolor ipsum facere facilis.</p>
+                <p class="mb-0">-Burrito Bandit</p>
             </div>
-            <div class="col-4 big-card bg-tert m-5">             
-                <h4>Burrito Brigan</h4>
+            <div class="col-4 big-card bg-tert m-5 d-flex flex-column justify-content-center align-items-center text-center ">
+              <div>
+                <i class="mdi mdi-egg-fried mdi-48px"></i>
+                <i class="mdi mdi-chili-mild mdi-48px"></i>
+                <i class="mdi mdi-sausage mdi-48px"></i>
+              </div>             
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis fugit omnis, iusto dolorum non placeat molestias corrupti excepturi voluptate iste incidunt quaerat eum veniam ipsa eligendi dolor ipsum facere facilis.</p>
+                <h6 class="mb-0">-Burrito Brigand</h6>
             </div>
-            <div class="col-4 card bg-tert m-5">
-                <h4>Burrito Burgler</h4>
+            <div class="col-4 card bg-tert m-5 d-flex flex-column justify-content-center align-items-center text-center ">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis fugit omnis, iusto dolorum non placeat molestias corrupti excepturi voluptate iste incidunt quaerat eum veniam ipsa eligendi dolor ipsum facere facilis.</p>
+                <h6 class="mb-0">-Burrito Burgler</h6>
             </div>
           </div>
         </div>
@@ -161,10 +167,9 @@
         <div class="container-fluid bg-sec">
           <div class="row">
             <div class="col">
-              <div>
-                <h2>BuRrItO Please</h2>
+              <div class="m-5">
+                <h2>Burrito Please</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti esse laboriosam sapiente unde explicabo excepturi eos recusandae fugiat. Eum tempore sapiente rerum fuga nihil esse facilis nulla, molestias repellat consequuntur?</p>
-
               </div>
             </div>
           </div>
@@ -173,7 +178,7 @@
       <footer>
         <div class="container-fluid">
           <div class="row">
-            <div class="col bg-tert text-center">
+            <div class="col bg-tert text-center pt-3">
               <div>
                 <p>All burritos pictured here may be eaten without harming burrito farms.</p>
               </div>
@@ -181,7 +186,6 @@
           </div>
         </div>
       </footer>
-
 
 
 

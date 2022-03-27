@@ -16,45 +16,36 @@ body{
 }
 
 .bur-paint {
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
 }
 
 .form-card {
   background-color: var(--secondary);
   padding: 0px;
+  margin: 0px;
 }
 
-.float-card{
-  top: 75px;
-  right: 75px;
+.float-card { 
+  top: 100px;
+  right: 100px;
 }
 
 .nav-font{
-  font-size: 44px;
+  font-size: 33px;
   vertical-align: bottom;
-}
-
-.icon-font {
-  vertical-align: bottom;
-}
-
-.test {
-  width: max-content;
-  height: 40em;
-}
-.img-card{
-  display: block;
 }
 
 .card {
-  height: 25em;
-  width: 30em;
+  height: 15em;
+  width: 20em;
+  box-shadow: 10px, 5px, 5px, yellow;
 }
 
 .big-card{
-  height: 30em;
-  width: 30em;
+  height: 20em;
+  width: 20em;
+  box-shadow: 5px, 5px, 5px, yellow;
 }
 
 .bg-pri{
@@ -74,10 +65,6 @@ body{
 
 .text-subtle{
   color:rgb(165, 99, 60, .5);
-}
-
-.pt-13 {
-  padding-top: 130px;
 }
 
 .w-60 {
