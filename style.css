@@ -27,7 +27,6 @@ body{
 }
 
 .float-card { 
-  width: 75%;
   height: 75%;
   top: 8em;
   left: 5em;
@@ -46,7 +45,7 @@ body{
 
 .big-card{
   height: 20em;
-  width: 20em;
+  width: 25em;
   box-shadow: 5px, 5px, 5px, yellow;
 }
 
@@ -73,8 +72,16 @@ body{
   font-size: .75rem;
 }
 
+.fs{
+  font-size: 3rem;
+}
+
 .pr-1 {
   padding-right: .25rem;
+}
+
+.pr-5 {
+  padding-right: 5rem;
 }
 
 .pl-1 {
@@ -110,13 +117,17 @@ body{
   .big-card{
     order: 1;
   }
-  .float-card{
+  .float{
       order: 1;
       position: unset !important;
+      height: 100%;
    }
 
   .blurb-card{
       order: 2;
-      position: unset;
+  }
+
+  .video  {
+    height: 40vh;
   }
 }
