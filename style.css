@@ -69,6 +69,18 @@ body{
   color:rgb(165, 99, 60, .5);
 }
 
+.fs-7 {
+  font-size: .75rem;
+}
+
+.pr-1 {
+  padding-right: .25rem;
+}
+
+.pl-1 {
+  padding-left: .25rem;
+}
+
 .w-60 {
   width: 60%;
 }
@@ -88,6 +100,8 @@ body{
 .vh-80 {
   height: 80vh;
 }
+
+
 
 @media only screen and (max-width: 992px ) {
   .card {
