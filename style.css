@@ -96,6 +96,10 @@ body{
   padding-left: .25rem;
 }
 
+.mb-322 {
+  margin-bottom: 290px;
+}
+
 .w-60 {
   width: 60%;
 }
@@ -116,6 +120,14 @@ body{
   height: 80vh;
 }
 
+.larger {
+  display: block;
+}
+
+.smaller {
+  display: none;
+}
+
 
 
 @media only screen and (max-width: 992px ) {
@@ -129,6 +141,14 @@ body{
       order: 1;
       position: unset !important;
       height: 100%;
+   }
+
+   .smaller {
+     display: block;
+   }
+
+   .larger {
+     display: none;
    }
 
   .blurb-card{
