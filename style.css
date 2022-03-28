@@ -33,15 +33,10 @@ body{
 }
 
 .float-card { 
-  height: 75%;
-  top: 8em;
-  left: 5em;
-  box-shadow: 3px 3px 6px #FFFF89;
-}
-
-.nav-font{
-  font-size: 33px;
-  vertical-align: bottom;
+  height: 100%;
+  top: 35px;
+  right: 35px;
+  box-shadow: 3px 3px 6px var(--primary);
 }
 
 .card {
@@ -59,6 +54,8 @@ body{
 .b-shadow{
   box-shadow: 3px 3px 6px #FFFF89;
 }
+
+
 
 .bg-pri{
   background-color: var(--primary);
