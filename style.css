@@ -30,13 +30,18 @@ body{
   background-color: var(--secondary);
   padding: 0px;
   margin: 0px;
+  box-shadow: 3px 3px 6px #A5633C
 }
 
 .float-card { 
   height: 100%;
   top: 35px;
   right: 35px;
-  box-shadow: 3px 3px 6px var(--primary);
+  box-shadow: 3px 3px 6px #A5633C;
+}
+
+.embed-responsive-item {
+  box-shadow: 3px 3px 6px #A5633C;
 }
 
 .card {
