@@ -21,6 +21,10 @@ body{
   height: 100vh;
 }
 
+.z {
+  z-index: 999;
+}
+
 .bur-paint {
   height: 50px;
   width: 50px;
@@ -38,6 +42,7 @@ body{
   top: 35px;
   right: 35px;
   box-shadow: 3px 3px 6px #A5633C;
+  z-index: 900;
 }
 
 .embed-responsive-item {
@@ -48,6 +53,7 @@ body{
   height: 15em;
   width: 20em;
   box-shadow: 3px 3px 6px #FFFF89;
+  z-index: 900;
 }
 
 .big-card{
